@@ -20,13 +20,35 @@
       <section>
         <figure>
           <img
-            src="https://www.cuteness.com/cuteness/17-cat-photos-remind-you-why-cats-are-the-best/9a3b2cff420f490aa9a2a57b1b8c93e2.jpg"
+            src="https://cdn2.cdnstep.com/rvBN5EwHAOsivbcjuMO3/cover-1.thumb256.png"
             alt="a random cat"
           />
           <figcaption>Fig 1. A random cat</figcaption>
         </figure>
       </section>
+
+      <section>
+        <details>
+          <summary>Hobbies</summary>
+          <ul>
+            <li>Swimming</li>
+            <li>Coding</li>
+            <li>Music</li>
+            <li>Memeing</li>
+          </ul>
+        </details>
+      </section>
+
+      <dialog id="mydialog">
+        This is a dialog
+        <a href="javascript:mydialog.removeAttribute('open')">close</a>
+      </dialog>
+
+      <a
+        href="javascript:document.querySelector('#mydialog').setAttribute('open', true)"
+      >
+        Open Dialog
+      </a>
     </article>
   </body>
-  <html></html>
 </html>
